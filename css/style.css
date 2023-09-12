@@ -549,10 +549,21 @@ body{
     height: 900px;
 }
 #WhyUs-content{
-    /*border: #8c6eca 1px solid;*/
+    border: #8c6eca 1px solid;
     color: hsl(0, 0%, 99%);
     padding-left: 100px;
     padding-top: 300px;
+    
+}
+#Explore{
+    position: absolute;
+    right: 0px;
+    top: 450%;
+}
+#circlebottom{
+   position: absolute;
+   
+    
 
 }
 #WhyUs-content p{
@@ -588,6 +599,105 @@ body{
     width: 90%;
 }
 /*WhyUsSection*/
+
+/*video section*/
+#videoSection{
+    height: 700px;
+    color: #fdfdfd;
+    background-color: #181818;
+    
+   
+}
+#Backimg{
+    height: 600px;
+    
+    background-image: url(/images/video.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+#Playpng{
+    margin: 100px;
+}
+.paragraphRotate{
+   
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    height: 300px;
+    margin-top: 150px;
+}
+.paragraphRotate img{
+    width: 50px;
+    
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.paragraphRotate p{
+    text-transform: uppercase;
+    margin: 40;
+    transform: rotate(-90deg);
+    
+}
+#rotateArrow{
+    transform: rotate(-180deg);
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+/*#arroplay1{
+    margin-top: 400px;
+    margin-right: 100px;
+}
+#arrowplay2{
+    margin-top:150px ;
+    margin-left: 50px;
+    
+
+}
+#startag1{
+    transform:rotate(270deg);
+    text-transform: uppercase;
+    display: block;
+   
+    margin-left: -60px;
+    margin-top: 250px;
+    
+    
+    
+}
+.noWrap{
+    line-height: 0px;
+    white-space: nowrap;
+    
+    
+
+}
+#startag2{
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    display: flex;
+    color: black;
+    margin-bottom: 200px;
+}
+*/
+.section10{
+    width: 10%;
+    display: flex;
+    float: left;
+
+}
+.section60{
+    width: 80%;
+    display: flex;
+    float: left;
+}
+
+/*video section*/
 
 /*Footer */
 .section33{
