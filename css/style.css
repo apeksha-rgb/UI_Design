@@ -549,7 +549,7 @@ body{
     height: 900px;
 }
 #WhyUs-content{
-    border: #8c6eca 1px solid;
+    
     color: hsl(0, 0%, 99%);
     padding-left: 100px;
     padding-top: 300px;
@@ -562,6 +562,8 @@ body{
 }
 #circlebottom{
    position: absolute;
+   top: 525%;
+   right: 6%;
    
     
 
@@ -610,7 +612,7 @@ body{
 }
 #Backimg{
     height: 600px;
-    
+    margin-top: 50px;
     background-image: url(/images/video.png);
     background-position: center;
     background-size: cover;
@@ -630,7 +632,7 @@ body{
     overflow: auto;
     flex-direction: column;
     height: 300px;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 .paragraphRotate img{
     width: 50px;
@@ -649,42 +651,7 @@ body{
     margin-top: 70px;
     margin-bottom: 0px;
 }
-/*#arroplay1{
-    margin-top: 400px;
-    margin-right: 100px;
-}
-#arrowplay2{
-    margin-top:150px ;
-    margin-left: 50px;
-    
 
-}
-#startag1{
-    transform:rotate(270deg);
-    text-transform: uppercase;
-    display: block;
-   
-    margin-left: -60px;
-    margin-top: 250px;
-    
-    
-    
-}
-.noWrap{
-    line-height: 0px;
-    white-space: nowrap;
-    
-    
-
-}
-#startag2{
-    text-transform: uppercase;
-    transform: rotate(270deg);
-    display: flex;
-    color: black;
-    margin-bottom: 200px;
-}
-*/
 .section10{
     width: 10%;
     display: flex;
@@ -698,6 +665,71 @@ body{
 }
 
 /*video section*/
+/*Testimonial section*/
+#TestimonialContainer{
+    overflow:auto;
+    height: 810px;
+    background-color: #181818;    
+}
+#userContent{
+    
+    height: 120px;
+   
+    text-align: center;
+    padding-top: 50px;
+    
+}
+#userContent h1{
+     color: #fdfdfd;
+     text-transform: uppercase;
+     line-height: 20px;
+     font-size: 60px;
+}
+#userContent h3{
+    color: #8c6eca;
+    line-height: 1.0px;
+    font-size: 26px;
+}
+#TestimonialSubContainer{
+    display: flex;
+    
+    width: 90%;
+    margin: 50px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.section33sec{
+    width: 33.33%;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+.section33sec h2{
+    text-transform: uppercase;
+    color:#252525;
+}
+.section33sec q{
+    color: #9a9a9a;
+
+}
+.section33sec img{
+    width: 50%;
+    margin-bottom: 10px;
+}
+#left-rightbuttons{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+}
+#left-rightbuttons img{
+    margin: 40px;
+}
+/*Testimonial section*/
 
 /*Footer */
 .section33{
