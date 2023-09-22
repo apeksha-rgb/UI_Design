@@ -730,6 +730,72 @@ body{
     margin: 40px;
 }
 /*Testimonial section*/
+/*Subscribe Section*/
+.section-50{
+    width: 50%;
+    float: left;
+    
+}
+#SubscribeSection{
+    overflow: auto;
+    background-color: #181818;
+    
+    
+
+}
+#Subscribe-form{
+    /* border: #8c6eca solid 1px; */
+    width: 500px;
+    text-align: center;
+    color:#fdfdfd ;
+    margin: 60px;
+    
+    
+}
+
+#SubscribeContent{
+    width: 400px;
+    margin-left: 50px;
+
+}
+#SubscribeContent h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+
+}
+
+#SubscribeContent p{
+    font-size: 12px;
+    letter-spacing:2px;
+    font-weight: bold;
+    padding-bottom:80px ;
+}
+.input-size{
+    width: 400px;
+    margin: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #6a6a6a;
+    border: #8c6eca 2px solid;
+    background-color: #181818;
+}
+.height-input{
+    height: 60px;
+}
+.height-inputmsg{
+    height: 150px;
+   
+}
+#input-padding{
+    margin: 50px;
+}
+
+
+/*Subscribe Section*/
 
 /*Footer */
 .section33{
